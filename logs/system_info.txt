@@ -1,0 +1,23 @@
+System Information
+
+The current date and time:
+Sat Nov 21 04:51:13 PM IST 2026
+
+The current usage of RAM: 
+               total        used        free      shared  buff/cache   available
+Mem:            13Gi       3.8Gi       1.7Gi        93Mi       8.0Gi       9.3Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+The current usage of Disk Space: 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           2.7G  4.1M  2.7G   1% /run
+/dev/nvme0n1p2  468G   45G  399G  11% /
+tmpfs           6.6G     0  6.6G   0% /dev/shm
+efivarfs        154K   67K   83K  45% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p1  1.1G  6.4M  1.1G   1% /boot/efi
+tmpfs           6.6G   12M  6.6G   1% /tmp
+tmpfs           1.4G   88K  1.4G   1% /run/user/1000
+tmpfs           1.4G  152K  1.4G   1% /run/user/1001
+

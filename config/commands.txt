@@ -1,0 +1,36 @@
+TASK 1
+
+mkdir Linux_Capstone_Arpan
+cd Linux_Capstone_Arpan/
+mkdir -p src/scripts config logs backup
+
+TASK 2
+
+cd logs
+touch system_info.txt
+echo "System Information" >> system_info.txt 
+echo “” >> system_info.txt
+echo “The current date and time:” >> system_info.txt 
+date >> system_info.txt 
+echo  "The current usage of RAM:" >> system_info.txt
+free -h  >> system_info.txt
+echo “” >> system_info.txt
+echo “The current usage of Disk Space:” >> system_info.txt
+df -h >> system_info.txt
+cat system_info.txt
+
+
+
+TASK3
+
+cd config/
+touch database.cfg
+chmod 640 database.cfg 
+touch secret_key.pem
+
+
+
+TASK4
+
+ps axu
+s axu | grep -iE 'bash|terminal' >> src/active_processes.txt
